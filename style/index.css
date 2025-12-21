@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+header {
+  width: 100vw;
+  height: 100vh;
+  background-color: #d4eaf5;
+  display: flex;
+}
+.header-left-container {
+  flex: 0.5;
+  border: 1px solid red;
+  position: relative;
+}
+.header-right-container {
+  flex: 0.5;
+  background-image: url('../assets/table.jpeg');
+  background-position: center;
+  background-size: cover;
+}
+nav {
+  height: 10vh;
+  display: flex;
+  align-items: end;
+  justify-content: space-evenly;
+}
+nav > a {
+  text-decoration: none;
+  color: black;
+  font-size: 2rem;
+}
+.left-content {
+  width: 80%;
+  height: 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2.5rem;
+  position: absolute;
+  top: 25%;
+  left: 5%;
+}
+.left-content > .head {
+  font-size: 2.8rem;
+  color: #052c43;
+  margin-right: 39rem;
+}
+.left-content > h1 {
+  color: #052c43;
+  font-size: 5.2rem;
+}
+.left-content > h1::before {
+  content: 'Best Design Of';
+  height: 0.5rem;
+  font-size: 1.9rem;
+  display: block;
+  margin-bottom: 0.8rem;
+}
+.left-content > p {
+  color: #838383;
+  text-align: justify;
+  line-height: 1.2rem;
+  font-size: 1.6rem;
+}
+.left-content > a {
+  text-decoration: none;
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 2rem;
+  text-transform: uppercase;
+  color: #648d9f;
+  font-size: 1.4rem;
+}
+.left-content > a:hover {
+  background-color: #052c43;
+  color: white;
+  transition: 0.3s;
+}
