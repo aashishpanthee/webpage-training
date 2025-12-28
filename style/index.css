@@ -14,7 +14,6 @@ header {
 }
 .header-left-container {
   flex: 0.5;
-  border: 1px solid red;
   position: relative;
 }
 .header-right-container {
@@ -80,4 +79,93 @@ nav > a {
   background-color: #052c43;
   color: white;
   transition: 0.3s;
+}
+.carousel-container {
+  width: 90vw;
+  margin: auto;
+  margin-top: 5vh;
+}
+.d-block {
+  height: 85vh;
+}
+footer {
+  width: 100vw;
+  height: 50vh;
+  background-color: #d4eaf5;
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: column;
+}
+.first-footer {
+  flex: 0.8;
+  display: flex;
+}
+.first-footer > div {
+  flex: 0.25;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.6rem;
+  gap: 1rem;
+}
+.first-footer > div > h4 {
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+.second-footer {
+  flex: 0.2;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.6rem;
+}
+.main-content {
+  height: 100vh;
+  width: 100vw;
+  margin-top: 5vh;
+  display: flex;
+}
+.main-content-left {
+  flex: 0.5;
+  background-image: url('../assets/steph.jpg');
+  background-size: cover;
+  background-position: center;
+}
+.main-content-right {
+  flex: 0.5;
+  background-color: #d6d9d2;
+  position: relative;
+}
+
+.main-content-description {
+  display: flex;
+  flex-direction: column;
+  gap: 2.5rem;
+  width: 80%;
+  position: absolute;
+  top: 30%;
+}
+.main-content-description > button {
+  background-color: #648d9f;
+  font-size: 1.2rem;
+  color: black;
+  border-radius: 1.5rem;
+  padding: 1rem 2.2rem;
+  border: none;
+  width: fit-content;
+}
+.main-content-heading {
+  color: #77a1b6;
+  text-transform: uppercase;
+  font-size: 1.7rem;
+}
+.main-content-description-heading {
+  font-size: 5.2rem;
+  line-height: 4.5rem;
+}
+.main-content-description-paragraph {
+  font-size: 1.6rem;
+  color: #838383;
 }
